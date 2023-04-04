@@ -1,0 +1,63 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+
+body{
+    color: aliceblue;
+            background-image: url('./background03.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+}
+
+#barra-superior{
+
+    background-color: rgb(36, 36, 36);
+
+}
+
+#barra-superior ul {
+    max-width: 8000px;
+
+
+}
+
+#barra-superior ul li {
+    display: inline;
+}
+
+#barra-superior ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#barra-superior ul li a:hover {
+    background-color: rgba(46, 46, 46, 0.795);
+}
+
+#barra-superior ul li:last-child a {
+    float: right;
+    background-color: rgba(46, 46, 46, 0.795);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 32px;
+    background-color: rgb(25, 25, 25);
+    color: rgb(140, 140, 140);
+    text-align: center;
+}
+
+#carouselExampleCaptions{
+
+    max-width: 1200px;
+    max-height: auto;
+    left: 19%;
+    width: 100%;
+}
